@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Voice Notes",
+  "version": "0",
+  "description": "Saves voice notes using the web speech API",
+  "icons": {
+    "128": "icon_128.png",
+    "48": "icon_48.png",
+    "16": "icon_16.png"
+  },
+  "permissions": [
+    "experimental",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "icon_48.png",
+    "default_popup": "popup.html"
+  },
+  "background":{
+    "scripts": ["background.js"]
+  }
+}
